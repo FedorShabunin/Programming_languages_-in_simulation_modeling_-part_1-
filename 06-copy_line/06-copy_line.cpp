@@ -9,7 +9,7 @@ int main()
 {
 SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
-cout<<"Строка 1:"<< std::endl;
+cout<<"РЎС‚СЂРѕРєР° 1:"<< std::endl;
 string line1;
 getline(cin, line1); 
 string line2; 
@@ -19,7 +19,7 @@ string line2;
          line2 += line1[k]; 
     }
 	
-    cout << "Копия Строки 1: " << line2 << endl;
+    cout << "РљРѕРїРёСЏ СЃС‚СЂРѕРєРё 1: " << line2 << endl;
 
 system("pause");
 return 0;
