@@ -9,10 +9,10 @@ int main()
 {
 SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
-cout<<"Ââåäèòå âàøå èìÿ:"<< std::endl;
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ:"<< std::endl;
 string name;
 getline(cin, name); 
-cout<<"Ïðèâåò,"<< name << std::endl;
+cout<<"ÐŸÑ€Ð¸Ð²ÐµÑ‚,"<< name << std::endl;
 system("pause");
 return 0;
 } 
