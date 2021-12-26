@@ -27,11 +27,11 @@ void crossing(CRectangle rectangle1, CRectangle rectangle2)
 	}
 	if (p == 0) 
 	{
-		cout << "Ïðÿìîóãîëüíèêè íå ïåðåñåêàþòñÿ. \n";
+		cout << "ÐŸÑ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ¸ Ð½Ðµ Ð¿ÐµÑ€ÐµÑÐµÐºÐ°ÑŽÑ‚ÑÑ. \n";
 	}
 	else 
 	{
-		cout << "Ïðÿìîóãîëüíèêè ïåðåñåêàþòñÿ. \n";
+		cout << "ÐŸÑ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ¸ Ð¿ÐµÑ€ÐµÑÐµÐºÐ°ÑŽÑ‚ÑÑ. \n";
 	}
 }
 
@@ -45,15 +45,15 @@ SetConsoleOutputCP(1251);
 	p.open("Coordinates.txt");
 	if(p.is_open())
 	{
-		cout << "Óñïåøíî \n";
+		cout << "Ð£ÑÐ¿ÐµÑˆÐ½Ð¾ \n";
 	}
 	if(!p.is_open())
 	{
-		cout << "Îøèáêà \n";
+		cout << "ÐžÑˆÐ¸Ð±ÐºÐ° \n";
 	}
 	p >> x_11 >> x_21 >> y_11 >> y_21 >> x_12 >> x_22 >> y_12 >> y_22;
 	CRectangle re1 (x_11, x_21, y_11, y_21);
 	CRectangle re2 (x_12, x_22, y_12, y_22);
-	crossing(re1, re2);
+	crossing (re1, re2);
 	return 0;
 }
