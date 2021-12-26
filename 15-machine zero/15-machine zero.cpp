@@ -15,7 +15,7 @@ SetConsoleOutputCP(1251);
 	{
 		null /= 2.0f;
 	}
-	cout << "Ìàøèííûé íîëü äëÿ òèïà float: " << null << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ Ð½Ð¾Ð»ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° float: " << null << "\n";
 
 	
 	double null_d = 1.0;
@@ -23,7 +23,7 @@ SetConsoleOutputCP(1251);
 	{
 		null_d /= 2.0;
 	}
-	cout << "Ìàøèííûé íîëü äëÿ òèïà double: " << null_d << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ Ð½Ð¾Ð»ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° double: " << null_d << "\n";
 
 	
 	long double null_l_d = 1.0;
@@ -31,7 +31,7 @@ SetConsoleOutputCP(1251);
 	{
 		null_l_d /= 2.0;
 	}
-	cout << "Ìàøèííûé íîëü äëÿ òèïà long double: " << null_d << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ Ð½Ð¾Ð»ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° long double: " << null_d << "\n";
  
 
 
@@ -43,7 +43,7 @@ SetConsoleOutputCP(1251);
 	{
 		e /= 2.0f;
 	}
-	cout << "Ìàøèííûé ýïñèëîí äëÿ òèïà float: " << e << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° float: " << e << "\n";
 
 	
 	double e_doub = 1.0;
@@ -51,7 +51,7 @@ SetConsoleOutputCP(1251);
 	{
 		e_doub /= 2.0;
 	}
-	cout << "Ìàøèííûé ýïñèëîí äëÿ òèïà double: " << e_doub << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° double: " << e_doub << "\n";
 
 	
 	long double e_long_doub = 1.0;
@@ -59,7 +59,7 @@ SetConsoleOutputCP(1251);
 	{
 		e_long_doub /= 2.0;
 	}
-	cout << "Ìàøèííûé ýïñèëîí äëÿ òèïà long double: " << e_long_doub << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ñ‹Ð¹ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° long double: " << e_long_doub << "\n";
 
 	
 	
@@ -67,32 +67,32 @@ SetConsoleOutputCP(1251);
 
 	float negative_inf_f = -FLT_MAX;
 	float positive_inf_f = FLT_MAX;
-	cout << "Ìàøèííàÿ áåñêîíå÷íîñòü äëÿ òèïà float: " << negative_inf_f << "  " << positive_inf_f << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ð°Ñ Ð±ÐµÑÐºÐ¾Ð½ÐµÑ‡Ð½Ð¾ÑÑ‚ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° float: " << negative_inf_f << "  " << positive_inf_f << "\n";
 
 	
 	double negative_inf_d = -DBL_MAX;
 	double positive_inf_d = DBL_MAX;
-    cout << "Ìàøèííàÿ áåñêîíå÷íîñòü äëÿ òèïà double: " << negative_inf_d << "  " << positive_inf_d << "\n";
+    cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ð°Ñ Ð±ÐµÑÐºÐ¾Ð½ÐµÑ‡Ð½Ð¾ÑÑ‚ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° double: " << negative_inf_d << "  " << positive_inf_d << "\n";
 
 	
 	long double negative_inf_ld = -LDBL_MAX;
 	long double positive_inf_ld = LDBL_MAX;
-	cout << "Ìàøèííàÿ áåñêîíå÷íîñòü äëÿ òèïà long double: " << negative_inf_ld << "  " << positive_inf_ld << "\n";
+	cout << "ÐœÐ°ÑˆÐ¸Ð½Ð½Ð°Ñ Ð±ÐµÑÐºÐ¾Ð½ÐµÑ‡Ð½Ð¾ÑÑ‚ÑŒ Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° long double: " << negative_inf_ld << "  " << positive_inf_ld << "\n";
 
 	
 
 
 
-	cout << "Ñóììà ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà float: " << null + e << "\n";
-	cout << "Ðàçíîñòü ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà float: " << null - e << "\n";
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° float: " << null + e << "\n";
+	cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° float: " << null - e << "\n";
 
 	
-	cout << "Ñóììà ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà double: " << null_d + e_doub << "\n";
-	cout << "Ðàçíîñòü ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà double: " << null_d - e_doub << "\n";
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° double: " << null_d + e_doub << "\n";
+	cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° double: " << null_d - e_doub << "\n";
 
 
-	cout << "Ñóììà ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà long double: " << null_l_d + e_long_doub << "\n";
-	cout << "Ðàçíîñòü ìàøèííîãî íóëÿ è ýïñèëîíà äëÿ òèïà long double: " << null_l_d - e_long_doub << "\n";
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° long double: " << null_l_d + e_long_doub << "\n";
+	cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ð¼Ð°ÑˆÐ¸Ð½Ð½Ð¾Ð³Ð¾ Ð½ÑƒÐ»Ñ Ð¸ ÑÐ¿ÑÐ¸Ð»Ð¾Ð½Ð° Ð´Ð»Ñ Ñ‚Ð¸Ð¿Ð° long double: " << null_l_d - e_long_doub << "\n";
 
 	
 	return 0;
