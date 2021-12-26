@@ -12,7 +12,7 @@ public:
 		numerator = num;
 		/*if (den == 0) 
         {
-            cout << "Îøèáêà \n";
+            cout << "ÃÃ¸Ã¨Ã¡ÃªÃ  \n";
             exit(0);
         }
         else */
@@ -22,7 +22,7 @@ public:
 				throw 1;
 		}
 		catch(int except) {
-			 cout << "Äåëåíèå íà 0 \n";
+			 cout << "Ğ”ĞµĞ»ĞµĞ½Ğ¸Ğµ Ğ½Ğ° 0 \n";
 		}
 		
 		denominator = den;
@@ -38,7 +38,7 @@ public:
 			}
 		catch(int except) 
 		{
-			cout << "Òğèâèàëüíàÿ äğîáü (0) \n";
+			cout << "Ğ¢Ñ€Ğ¸Ğ²Ğ¸Ğ°Ğ»ÑŒĞ½Ğ°Ñ Ğ´Ñ€Ğ¾Ğ±ÑŒ (0) \n";
 		}
 
     }
@@ -57,7 +57,7 @@ public:
 				throw 3;
 		}
 		catch(int except) {
-			 cout << "Íåñîâïàäåíèå òèïîâ\n";
+			 cout << "ĞĞµÑĞ¾Ğ²Ğ¿Ğ°Ğ´ĞµĞ½Ğ¸Ğµ Ñ‚Ğ¸Ğ¿Ğ¾Ğ² \n";
 		}
 		
 		return CRational(num, den);
@@ -71,7 +71,7 @@ public:
 				throw 4;
 		}
 		catch(int except) {
-			 cout << "Íåâåğíûé ğàñ÷åò ÷èñëèòåëÿ \n";
+			 cout << "ĞĞµĞ²ĞµÑ€Ğ½Ñ‹Ğ¹ Ñ€Ğ°ÑÑ‡ĞµÑ‚ Ñ‡Ğ¸ÑĞ»Ğ¸Ñ‚ĞµĞ»Ñ \n";
 		}
 
 		return CRational(num, den).reduce();
@@ -95,7 +95,7 @@ public:
 				throw 5;
 		}
 		catch(int except) {
-			 cout << "Íåâåğíûé ğàñ÷åò çíàìåíàòåëÿ\n";
+			 cout << "ĞĞµĞ²ĞµÑ€Ğ½Ñ‹Ğ¹ Ñ€Ğ°ÑÑ‡ĞµÑ‚ Ğ·Ğ½Ğ°Ğ¼ĞµĞ½Ğ°Ñ‚ĞµĞ»Ñ \n";
 		}
 
 		return CRational(num, den).reduce();
@@ -118,7 +118,7 @@ public:
 			}
 			catch(int except) 
 			{
-				 cout << "Íåâåğíûé âûâîä\n";
+				 cout << "ĞĞµĞ²ĞµÑ€Ğ½Ñ‹Ğ¹ Ğ²Ñ‹Ğ²Ğ¾Ğ´\\n";
 			}
 
 
