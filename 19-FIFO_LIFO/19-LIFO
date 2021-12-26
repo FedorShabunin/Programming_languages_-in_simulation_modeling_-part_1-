@@ -14,7 +14,7 @@ public:
 	{
 		if (N <= 0)
 		{
-			cout << "Îøèáêà\n";
+			cout << "ÐžÑˆÐ¸Ð±ÐºÐ° \n";
 			
 			exit(0);
 		}
@@ -36,7 +36,7 @@ public:
 	void pop(int a)
 	{
 		int j = 0;
-		cout << a + 1 << " Âûõîäèò " << array[0] << "\n";
+		cout << a + 1 << " Ð’Ñ‹Ñ…Ð¾Ð´Ð¸Ñ‚ " << array[0] << "\n";
 			
 		while (j < lenght - 1)
 		{
@@ -54,13 +54,13 @@ int main()
 SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
 
-	cout << "Ââåäèòå íà÷àëüíóþ äëèíó ìàññèâà: \n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ñ‡Ð°Ð»ÑŒÐ½ÑƒÑŽ Ð´Ð»Ð¸Ð½Ñƒ Ð¼Ð°ÑÑÐ¸Ð²Ð°: \n";
 	int N, c;
 	cin >> N;
 
 	LIFO array(N);
 
-	cout << "Ââåäèòå öåëûå ÷èñëà: \n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð°: \n";
 	int i = 0;
 	while (i < N)
 	{
