@@ -53,7 +53,7 @@ SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
 
 	cout << "Введите начальную длину массива: \n";
-	int N, ñ;
+	int N, c;
 	cin >> N;
 
 	FIFO array(N);
@@ -62,8 +62,8 @@ SetConsoleOutputCP(1251);
 	int i = 0;
 	while (i < N)
 	{
-		cin >> ñ;
-		array.push(i, ñ);
+		cin >> c;
+		array.push(i, c);
 		i++;
 	}
 
