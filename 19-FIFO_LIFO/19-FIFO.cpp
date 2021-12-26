@@ -14,31 +14,31 @@ public:
 	{
 		if (N <= 0)
 		{
-			cout << "Ошибка \n";
+			cout << "РћС€РёР±РєР° \n";
 			
 			exit(0);
 		}
 
 		lenght = N;
-		array = new int[lenght]; // выделение динамической памяти
+		array = new int[lenght]; 
 	}
 
 	~FIFO()
 	{
-		delete[] array; //освобождения памяти, выделенной оператором new
+		delete[] array; 
 	}
 
-	void push(int indicator, int value) //перемещение числа в контейнер
+	void push(int indicator, int value) 
 	{
 		array[lenght - indicator - 1] = value;
 	}
 
-	void pop(int a) //извлеченние числа из контейнера
+	void pop(int a) 
 	{
 		int k = 0;
 		while (k < lenght)
 		{
-			cout << a + 1 << " Выходит " << array[lenght - 1] << "\n";
+			cout << a + 1 << " Р’С‹С…РѕРґРёС‚ " << array[lenght - 1] << "\n";
 			lenght--;
 			a++;
 		}
@@ -52,18 +52,18 @@ int main()
 SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
 
-	cout << "Введите начальную длину массива: \n";
-	int N, с;
+	cout << "Р’РІРµРґРёС‚Рµ РЅР°С‡Р°Р»СЊРЅСѓСЋ РґР»РёРЅСѓ РјР°СЃСЃРёРІР°: \n";
+	int N, Г±;
 	cin >> N;
 
 	FIFO array(N);
 
-	cout << "Введите целые числа: \n";
+	cout << "Р’РІРµРґРёС‚Рµ С†РµР»С‹Рµ С‡РёСЃР»Р°: \n";
 	int i = 0;
 	while (i < N)
 	{
-		cin >> с;
-		array.push(i, с);
+		cin >> Г±;
+		array.push(i, Г±);
 		i++;
 	}
 
