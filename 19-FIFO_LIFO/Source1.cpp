@@ -1,0 +1,77 @@
+#include <iostream>
+#include <cstdlib>
+#include <Windows.h>
+
+using namespace std;
+
+class LIFO {
+private:
+	int *array;
+	int lenght;
+
+public: 
+	LIFO(int N)
+	{
+		if (N <= 0)
+		{
+			cout << "Ошибка\n";
+			
+			exit(0);
+		}
+
+		lenght = N;
+		array = new int[lenght];
+	}
+
+	~LIFO()
+	{
+		delete[] array;
+	}
+
+	void push(int indicator, int number)
+	{
+		array[lenght - indicator - 1] = number;
+	}
+
+	void pop(int a)
+	{
+		int j = 0;
+		cout << a + 1 << " Выходит " << array[0] << "\n";
+			
+		while (j < lenght - 1)
+		{
+			array[j] = array[j + 1];
+			j++;
+		}
+	}
+
+};
+
+int main()
+
+{
+
+SetConsoleCP(1251);
+SetConsoleOutputCP(1251);
+
+	cout << "Введите начальную длину массива: \n";
+	int N, c;
+	cin >> N;
+
+	LIFO array(N);
+
+	cout << "Введите целые числа: \n";
+	int i = 0;
+	while (i < N)
+	{
+		cin >> c;
+		array.push(i, c);
+		i++;
+	}
+
+	for (i = 0; i < N; i++)
+		array.pop(i);
+
+	
+	return 0;
+}
